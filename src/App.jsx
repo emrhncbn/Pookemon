@@ -428,7 +428,7 @@ export default function App() {
       newYPosition = Math.max(boundaries.yAxis.min, Math.min(newYPosition, boundaries.yAxis.max))
   
       // Yeni konumu döndür
-      return { ...prevPookachu, xPosition: newXPosition, yPosition: newYPosition }
+      return { ...prevPookachu, xPosition: newXPosition, yPosition: newYPosition}
     })
   }
 
